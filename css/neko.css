@@ -8,7 +8,7 @@
     width: 100vw;
 }
 
-#rainbow {
+.rainbow {
     height: 400px;
     top: 15px;
     left: 0;
@@ -81,9 +81,9 @@
 
 @keyframes roll {
     0% {
-        transform: translate(0, 0);
+        transform: translate(-25%, 0);
     }
     100% {
-        transform: translate(-50%, 0);
+        transform: translate(-75%, 0);
     }
 }
