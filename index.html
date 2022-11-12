@@ -88,10 +88,8 @@
 </div>
 <script>
     if (!/^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {
-        let starsScene = document.getElementById('stars');
-        new Parallax(starsScene);
-        let nekoScene = document.getElementById('neko-inner');
-        new Parallax(nekoScene);
+        new Parallax(document.getElementById('stars'));
+        new Parallax(document.getElementById('neko-inner'));
     }
 </script>
 </body>
