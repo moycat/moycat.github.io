@@ -1,0 +1,170 @@
+#stars {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.star {
+    position: absolute !important;
+    width: 112px;
+    height: 112px;
+    overflow: hidden;
+    animation: star-fly 8s linear infinite normal;
+}
+
+.star span {
+    position: absolute;
+    left: 0;
+    width: 448px;
+    height: 112px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 48px, #ffffff 48px, #ffffff 64px, rgba(0, 0, 0, 0) 64px, rgba(0, 0, 0, 0) 448px), linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 48px, #ffffff 48px, #ffffff 64px, rgba(0, 0, 0, 0) 64px, rgba(0, 0, 0, 0) 448px), linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 16px, #ffffff 16px, #ffffff 32px, rgba(0, 0, 0, 0) 32px, rgba(0, 0, 0, 0) 80px, #ffffff 80px, #ffffff 96px, rgba(0, 0, 0, 0) 96px, rgba(0, 0, 0, 0) 160px, #ffffff 160px, #ffffff 176px, rgba(0, 0, 0, 0) 176px, rgba(0, 0, 0, 0) 272px, #ffffff 272px, #ffffff 288px, rgba(0, 0, 0, 0) 288px, rgba(0, 0, 0, 0) 448px), linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 16px, #ffffff 16px, #ffffff 32px, rgba(0, 0, 0, 0) 32px, rgba(0, 0, 0, 0) 80px, #ffffff 80px, #ffffff 96px, rgba(0, 0, 0, 0) 96px, rgba(0, 0, 0, 0) 160px, #ffffff 160px, #ffffff 176px, rgba(0, 0, 0, 0) 176px, rgba(0, 0, 0, 0) 272px, #ffffff 272px, #ffffff 288px, rgba(0, 0, 0, 0) 288px, rgba(0, 0, 0, 0) 448px), linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 272px, #ffffff 272px, #ffffff 288px, rgba(0, 0, 0, 0) 288px, rgba(0, 0, 0, 0) 448px), linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 272px, #ffffff 272px, #ffffff 288px, rgba(0, 0, 0, 0) 288px, rgba(0, 0, 0, 0) 448px), linear-gradient(to right, #ffffff 0%, #ffffff 16px, rgba(0, 0, 0, 0) 16px, rgba(0, 0, 0, 0) 96px, #ffffff 96px, #ffffff 112px, rgba(0, 0, 0, 0) 112px, rgba(0, 0, 0, 0) 128px, #ffffff 128px, #ffffff 144px, rgba(0, 0, 0, 0) 144px, rgba(0, 0, 0, 0) 160px, #ffffff 160px, #ffffff 176px, rgba(0, 0, 0, 0) 176px, rgba(0, 0, 0, 0) 192px, #ffffff 192px, #ffffff 208px, rgba(0, 0, 0, 0) 208px, rgba(0, 0, 0, 0) 240px, #ffffff 240px, #ffffff 272px, rgba(0, 0, 0, 0) 272px, rgba(0, 0, 0, 0) 288px, #ffffff 288px, #ffffff 320px, rgba(0, 0, 0, 0) 320px, rgba(0, 0, 0, 0) 384px, #ffffff 384px, #ffffff 400px, rgba(0, 0, 0, 0) 400px, rgba(0, 0, 0, 0) 448px), linear-gradient(to right, #ffffff 0%, #ffffff 16px, rgba(0, 0, 0, 0) 16px, rgba(0, 0, 0, 0) 96px, #ffffff 96px, #ffffff 112px, rgba(0, 0, 0, 0) 112px, rgba(0, 0, 0, 0) 128px, #ffffff 128px, #ffffff 144px, rgba(0, 0, 0, 0) 144px, rgba(0, 0, 0, 0) 160px, #ffffff 160px, #ffffff 176px, rgba(0, 0, 0, 0) 176px, rgba(0, 0, 0, 0) 192px, #ffffff 192px, #ffffff 208px, rgba(0, 0, 0, 0) 208px, rgba(0, 0, 0, 0) 240px, #ffffff 240px, #ffffff 272px, rgba(0, 0, 0, 0) 272px, rgba(0, 0, 0, 0) 288px, #ffffff 288px, #ffffff 320px, rgba(0, 0, 0, 0) 320px, rgba(0, 0, 0, 0) 384px, #ffffff 384px, #ffffff 400px, rgba(0, 0, 0, 0) 400px, rgba(0, 0, 0, 0) 448px), linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 272px, #ffffff 272px, #ffffff 288px, rgba(0, 0, 0, 0) 288px, rgba(0, 0, 0, 0) 448px), linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 272px, #ffffff 272px, #ffffff 288px, rgba(0, 0, 0, 0) 288px, rgba(0, 0, 0, 0) 448px), linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 16px, #ffffff 16px, #ffffff 32px, rgba(0, 0, 0, 0) 32px, rgba(0, 0, 0, 0) 80px, #ffffff 80px, #ffffff 96px, rgba(0, 0, 0, 0) 96px, rgba(0, 0, 0, 0) 160px, #ffffff 160px, #ffffff 176px, rgba(0, 0, 0, 0) 176px, rgba(0, 0, 0, 0) 272px, #ffffff 272px, #ffffff 288px, rgba(0, 0, 0, 0) 288px, rgba(0, 0, 0, 0) 448px), linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 16px, #ffffff 16px, #ffffff 32px, rgba(0, 0, 0, 0) 32px, rgba(0, 0, 0, 0) 80px, #ffffff 80px, #ffffff 96px, rgba(0, 0, 0, 0) 96px, rgba(0, 0, 0, 0) 160px, #ffffff 160px, #ffffff 176px, rgba(0, 0, 0, 0) 176px, rgba(0, 0, 0, 0) 272px, #ffffff 272px, #ffffff 288px, rgba(0, 0, 0, 0) 288px, rgba(0, 0, 0, 0) 448px), linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 48px, #ffffff 48px, #ffffff 64px, rgba(0, 0, 0, 0) 64px, rgba(0, 0, 0, 0) 448px), linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 48px, #ffffff 48px, #ffffff 64px, rgba(0, 0, 0, 0) 64px, rgba(0, 0, 0, 0) 448px);
+    background-position: 0 0, 0 8px, 0 16px, 0 24px, 0 32px, 0 40px, 0 48px, 0 56px, 0 64px, 0 72px, 0 80px, 0 88px, 0 96px, 0 104px, 0 112px;
+    background-size: 448px 8px;
+    background-repeat: no-repeat;
+    animation: star 600ms step-start infinite alternate;
+}
+
+@media (max-width: 992px) {
+    .star:nth-child(9), .star:nth-child(10) {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .star:nth-child(8) {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    #stars {
+        transform: scale(0.8);
+    }
+
+    .star {
+        animation-duration: 4s;
+    }
+
+    .star:nth-child(6) {
+        top: 107vh !important;
+    }
+
+    .star:nth-child(7) {
+        top: 111vh !important;
+    }
+}
+
+.star:nth-child(1) {
+    animation-delay: -0.8s;
+    top: 97vh !important;
+}
+
+.star:nth-child(1) span {
+    animation-delay: -585ms;
+}
+
+.star:nth-child(2) {
+    animation-delay: -7.2s;
+    top: 68vh !important;
+}
+
+.star:nth-child(2) span {
+    animation-delay: -97ms;
+}
+
+.star:nth-child(3) {
+    animation-delay: -4.3s;
+    top: 11vh !important;
+}
+
+.star:nth-child(3) span {
+    animation-delay: -530ms;
+}
+
+.star:nth-child(4) {
+    animation-delay: -5.9s;
+    top: 50vh !important;
+}
+
+.star:nth-child(4) span {
+    animation-delay: -412ms;
+}
+
+.star:nth-child(5) {
+    animation-delay: -7.5s;
+    top: 30vh !important;
+}
+
+.star:nth-child(5) span {
+    animation-delay: -500ms;
+}
+
+.star:nth-child(6) {
+    animation-delay: -2.4s;
+    top: 71vh !important;
+}
+
+.star:nth-child(6) span {
+    animation-delay: -517ms;
+}
+
+.star:nth-child(7) {
+    animation-delay: -1.7s;
+    top: 11vh !important;
+}
+
+.star:nth-child(7) span {
+    animation-delay: -297ms;
+}
+
+.star:nth-child(8) {
+    animation-delay: -3.7s;
+    top: 29vh !important;
+}
+
+.star:nth-child(8) span {
+    animation-delay: -442ms;
+}
+
+.star:nth-child(9) {
+    animation-delay: -4.8s;
+    top: 41vh !important;
+}
+
+.star:nth-child(9) span {
+    animation-delay: -38ms;
+}
+
+.star:nth-child(10) {
+    animation-delay: -1s;
+    top: 23vh !important;
+}
+
+.star:nth-child(10) span {
+    animation-delay: -421ms;
+}
+
+@keyframes star {
+    0%, 16.6% {
+        left: 0;
+    }
+    16.7%, 49.9% {
+        left: -112px;
+    }
+    50%, 83.2% {
+        left: -224px;
+    }
+    83.3%, 100% {
+        left: -336px;
+    }
+}
+
+@keyframes star-fly {
+    0% {
+        left: 100vw;
+    }
+    100% {
+        left: -112px;
+    }
+}

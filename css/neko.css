@@ -1,0 +1,89 @@
+#neko {
+    position: absolute;
+}
+
+#neko-inner {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+#rainbow {
+    height: 400px;
+    top: 15px;
+    left: 0;
+    position: absolute;
+    animation: 3s roll linear infinite normal;
+}
+
+.orca-cat {
+    position: absolute;
+    width: 960px;
+    top: 60px !important;
+    left: -400px !important;
+}
+
+#orca {
+    z-index: 10;
+}
+
+#sakamoto {
+    z-index: 20;
+}
+
+#d {
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    height: 400px;
+    clip-path: polygon(-100px 0, 150px 0, 150px 100%, -100px 100%);
+    z-index: 15;
+}
+
+@media (max-width: 1200px) {
+    #neko {
+        transform: scale(0.85);
+    }
+
+    .orca-cat {
+        left: -400px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    #neko {
+        transform: scale(0.75);
+    }
+}
+
+@media (max-width: 768px) {
+    #neko {
+        transform: scale(0.6);
+    }
+}
+
+@media (max-width: 576px) {
+    #neko {
+        transform: scale(0.5);
+    }
+
+    #d {
+        top: 100vh !important;
+        left: -300px !important;
+        clip-path: polygon(0 0, 450px 0, 450px 100%, 0 100%);
+    }
+
+    .orca-cat {
+        top: calc(100vh + 60px) !important;
+        left: -400px !important;
+    }
+}
+
+@keyframes roll {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-50%, 0);
+    }
+}
