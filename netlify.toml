@@ -4,6 +4,26 @@
   status = 301
   force = true
 [[redirects]]
+  from = "/about"
+  to = "https://archive.moy.cat/about"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/tag/*"
+  to = "https://archive.moy.cat/tag/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/category/*"
+  to = "https://archive.moy.cat/category/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/author/*"
+  to = "https://archive.moy.cat/author/:splat"
+  status = 301
+  force = true
+[[redirects]]
   from = "/2017/*"
   to = "https://archive.moy.cat/2017/:splat"
   status = 301
