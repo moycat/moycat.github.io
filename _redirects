@@ -1,0 +1,10 @@
+/feed https://blog.moy.cat/atom.xml 301
+/about https://archive.moy.cat/about 301
+/tag/* https://archive.moy.cat/tag/:splat 301
+/category/* https://archive.moy.cat/category/:splat 301
+/author/* https://archive.moy.cat/author/:splat 301
+/2017/* https://archive.moy.cat/2017/:splat 301
+/2018/* https://archive.moy.cat/2018/:splat 301
+/2019/* https://archive.moy.cat/2019/:splat 301
+/2020/* https://archive.moy.cat/2020/:splat 301
+/2021/* https://archive.moy.cat/2021/:splat 301
